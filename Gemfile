@@ -32,6 +32,7 @@ group :development, :test do
   gem 'rspec'
   gem 'faker'
   gem 'populator'
+  gem 'pry'
 end
 
 group :test do

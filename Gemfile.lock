@@ -299,6 +299,7 @@ DEPENDENCIES
   letter_opener
   pg
   populator
+  pry
   rails (~> 6.0.4)
   rails_autolink
   remotipart

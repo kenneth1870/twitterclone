@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   extend FriendlyId
   friendly_id :username, use: [:slugged, :finders]
 
-  devise :database_authenticatable, :registerable, :confirmable,
+  devise :database_authenticatable, :registerable,
     :recoverable, :rememberable, :trackable, :validatable
   validates :name, presence: true, length: { maximum: 100 }
   validates :username, presence: true, length: { maximum: 20 }, :uniqueness => { case_sensitive: false }
