@@ -54,3 +54,5 @@ rails db:create db:migrate db:seed
 rails s
 ```
 # twitterclone
+
+Prod: https://morning-shore-95610-dbf421cbadd3.herokuapp.com/
