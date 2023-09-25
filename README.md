@@ -6,7 +6,7 @@
 
 ```shell
 git clone https://github.com/kenneth1870/twitterclone.git
-cd project
+cd twitterclone
 ```
 
 ### Check your Ruby version
